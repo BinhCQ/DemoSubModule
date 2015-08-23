@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.appconus.submodulelibrary.Foo;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tvFoo = (TextView) findViewById(R.id.tvFoo);
-//        tvFoo.setText(Foo.ping());
+        tvFoo.setText(Foo.ping());
     }
 }
