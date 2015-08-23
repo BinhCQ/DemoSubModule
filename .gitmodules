@@ -1,0 +1,3 @@
+[submodule "submodulelibrary"]
+	path = submodulelibrary
+	url = git@github.com:BinhCQ/SubModuleLibrary.git
